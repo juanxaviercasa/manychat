@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1787456267042,
+      "tag": "0000_lyrical_amphibian",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1787620718624,
+      "tag": "0001_fuzzy_crystal",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1787621398226,
+      "tag": "0002_curly_the_santerians",
+      "breakpoints": true
+    }
+  ]
+}

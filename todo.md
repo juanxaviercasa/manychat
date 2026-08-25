@@ -1,0 +1,41 @@
+# Project TODO
+
+- [x] Dashboard personal con métricas, rendimiento de automatizaciones, actividad reciente y alertas operativas
+- [x] Constructor visual editable con JSON, ramas y nodos de disparador, condición, espera, mensaje y etiquetas
+- [x] Crear, editar, duplicar, activar/desactivar y probar workflows localmente
+- [x] CRM con búsqueda, segmentación, etiquetas, estados, ficha e historial
+- [x] Bandeja simulada para Instagram, WhatsApp, SMS y correo
+- [x] Integraciones con estados, formularios y placeholders seguros
+- [x] Ejecuciones y webhooks con filtros, detalle y diagnóstico
+- [x] Configuración de negocio, anti-spam y preferencias persistentes
+- [x] Datos demo, estados vacíos, accesibilidad y feedback inmediato
+- [x] Responsive en móvil, tablet y escritorio
+- [x] Pruebas Vitest, compilación y verificación visual
+- [x] Documentación de variables de entorno placeholder
+- [x] Guardar checkpoint final y entregar versión
+- [x] Implementar duplicación real de workflows en estado local, creando una copia editable
+- [x] Persistir configuración y preferencias en localStorage y restaurarlas al recargar
+- [x] Completar estados empty/loading/error accesibles en las vistas principales y reforzar ARIA
+- [x] Ampliar Vitest para cubrir comportamientos clave de workflows, CRM, inbox e settings
+- [x] Crear checkpoint final exitoso y validar entrega
+- [x] Vincular el editor de workflows al flujo seleccionado/duplicado para que cada copia tenga estado local propio
+- [x] Persistir y restaurar los campos completos del perfil de negocio
+- [x] Añadir estados accesibles de carga, error y vacío en las vistas principales
+- [x] Agregar pruebas auditables para filtros CRM, envío demo y persistencia de settings
+- [x] Guardar un checkpoint final exitoso después de la validación
+- [x] Persistir workflows, contactos, conversaciones y ejecuciones en tablas del backend por usuario
+- [x] Crear procedimientos tRPC con autorización por rol para gestionar CRM, workflows y ejecuciones
+- [x] Integrar rate limiting Redis configurable para acciones de campaña y simulación segura sin Redis
+- [x] Añadir clasificación omnicanal de intención con IA mediante salida JSON estructurada y revisión manual
+- [x] Mejorar el constructor visual con arrastrar y soltar, animaciones y conexiones interactivas
+- [x] Exportar contactos filtrados y métricas de dashboard a CSV descargable
+- [x] Añadir pruebas de persistencia, control de acceso, clasificación, rate limiting y exportación
+- [x] Validar en responsive y guardar checkpoint de la ampliación operativa
+- [ ] Sincronizar la ampliación validada con el repositorio GitHub juanxaviercasa/manychat
+- [x] Conectar las vistas principales a datos persistentes de workflows, CRM, inbox y ejecuciones
+- [x] Añadir una cola de revisión manual para intenciones IA que requieren escalamiento
+- [x] Cubrir CRUD y procedimientos tRPC persistentes con pruebas aisladas y clasificación IA simulada
+- [x] Ampliar pruebas tRPC para actualización, duplicación, mensajes, ejecución y resolución de revisión
+- [x] Añadir pruebas auditables de helpers de persistencia por propietario
+- [ ] Guardar un nuevo checkpoint final de la ampliación operativa validada
+- [x] Añadir pruebas directas de helpers de base de datos para aislamiento por propietario y cola de revisión
